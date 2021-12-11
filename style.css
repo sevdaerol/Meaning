@@ -116,3 +116,17 @@ h4, h5, h3, p {
     font-size: 60%;
 }
 
+@media (max-width: 560px) {
+    .cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card{
+        width: 18rem;
+    }
+    h1{
+        font-size: xx-large;
+    }
+}
+
